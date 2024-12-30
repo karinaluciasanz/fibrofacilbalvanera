@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de cuenta</title>
+    <link rel="stylesheet" href="../css/formulario-inicio.css">
+</head>
+
+<body>
+ <main class="inise">
+    <h1>Registrarse</h1>
+    <div class="login-contenedor">
+        <form action="https://formspree.io/f/mvgogqpe" method="post">
+            <fieldset>
+            <Legend class="titulo-login"><br>Complete los campos<br></Legend><br>
+            <label for="nombre">Nombre*:</label>
+            <input type="text" placeholder=Requerido size="10" maxlength="15" required ><br><br>
+            <label for="apellido">Apellidos*: </label>
+            <input type="text" size="10" maxlength="15" required ><br><br>
+            <label for="fec_nac">Fecha de nacimiento*:</label>
+            <input type="date" name="fec_nac" id="" required> <br><br>
+            <label for="correo">Email*:</label>
+            <input type="email" name="correo" id="" required><br><br>
+            <label for="contrasenia">Contraseña*:</label>
+            <input type="text" size="10" maxlength="15" required><br><br>
+            <button type="submit">Entrar</button><br><br>
+            <a href="../pages/cuenta.html" class="registro-link">¿Ya tenes una cuenta registrada?</a><br>
+            <a href="../index.html" class="inicio-again" >Volver al inicio</a><br>
+            </fieldset>
+        </form>
+    
+    </div>
+ </main>   
+</body>
+</html>

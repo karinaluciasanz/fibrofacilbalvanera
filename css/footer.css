@@ -1,0 +1,40 @@
+/* Archivo: styles.css */
+
+/* Estilos del Footer */
+.footer {
+    
+    padding: 10px 10px;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+
+    
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    background: peachpuff;
+    padding: 1em 1em;
+    margin-top: 50px
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.direccion {
+    font-weight: bold;
+}
+
+@media (min-width: 600px) {
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-around; 
+    }
+    .footer-section {
+        max-width: none;
+    }
+}

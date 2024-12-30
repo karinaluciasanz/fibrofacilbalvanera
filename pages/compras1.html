@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOGAR</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleHome.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/compras.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="../js/decoracion.js" defer></script>
+    <script src="../js/carSer1.js"defer></script>
+    <script src="../js/cart1.js" defer></script>
+
+
+</head>
+<body>
+    <header>
+        <div class="cabecera">
+            <section class="menu-prin">
+                <nav class="menu-secun">
+                    <ul>
+                        <li><a href="#"> <i class="fa-solid fa-truck-fast"></i> Envíos a todo el país</a></li>
+                        <li><a href="#"> <i class="fa-regular fa-credit-card"></i> Todos los medios de pago</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+    </header>
+
+    <div class="menu">
+        <form class="buscador" action="/search" method="get">
+            <label for="query"></label>
+            <input type="text" id="query" name="query" class="search-box" placeholder="Buscar">
+            <button type="submit" class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <h1 class="titul">FIBROFACIL BALVANERA</h1>
+        <div class="login-cart">
+            <a href="../pages/sesion.html"><i class="fa-regular fa-user"></i></a>
+            <a href="../pages/compras.html" id="cart"><img src="../img/iconos/shopping-cart.png" alt=""><span id="cuenta-carrito">0</span></a>
+        </div>
+    </div>
+
+    <div class="centrado">
+        <section class="menu-section">
+            <nav class="menu-simple">
+                <ul>
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="../pages/hogar.html">SOUVENIRS</a></li>
+                    <li><a href="../pages/decoracion.html">DECORACIÓN</a></li>
+                    <li><a href="../pages/infantiles.html">INFANTILES</a></li>
+                    <li><a href="../pages/navidad.html">NAVIDAD</a></li>
+                    <li><a href="../pinturas.html">PINTURAS Y MÁS</a></li>
+                </ul>
+            </nav>
+        </section>
+    </div>
+
+	<main>
+		<p id="carrito-vacio">Ups! El carrito está vacío, <a href="../index.html">elige algunos productos</a></p>
+		<section id="cart-container"></section>
+        <section id="totales">
+            <p>Total unidades: <span id="cantidad">0</span></p>
+            <p>Total precio: $<span id="precio">0</span></p>
+            <button disabled>Comprar</button>
+            <button id="reiniciar">Reiniciar</button>
+        </section>
+    </main>
+
+<script src="https://kit.fontawesome.com/b5c02f18e7.js" crossorigin="anonymous"></script>
+
+</body>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-section direccion">
+            <h3>Contactanos</h3>
+            <ul>
+                <li>Para consultas : 11-4038-3494</li>
+                <li>Para seguimientos y reclamos : 11-5876-0767 </li>
+            </ul>
+        </div>
+        <div class="footer-section mapa">
+            <h3>Mapa</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0399313553876!2d-58.40106802521284!3d-34.60315175746673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaeb3a28438f%3A0x64840fe15f1b8a24!2sPres.%20Jos%C3%A9%20Evaristo%20Uriburu%20510%2C%20C1027%20AAL%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1735555381484!5m2!1ses-419!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="footer-section derechos">
+            <p>&copy; 2024 Fibrofacil Balvanera. Todos los derechos reservados.</p>
+        </div>
+    </div>
+    
+</footer>
+
+</html>

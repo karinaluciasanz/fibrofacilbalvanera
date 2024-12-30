@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.login-contenedor {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    font-size:small;
+    
+}
+.login-contenedor input[type="text"],
+.login-contenedor input[type="date"],
+.login-contenedor input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+}
+.login-contenedor button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d6b16b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.login-contenedor button:hover {
+    background-color: #cea65d;
+}
+
+.login-contenedor .registro-link {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    color: #e9c35d;
+    text-decoration: none;
+}
+
+.login-container .registro-link:hover {
+    text-decoration: underline;
+}
+.titulo-login{
+    font-family: Arial, sans-serif;
+    color: #d6b16b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    margin: 0;
+}
+.inicio-again{
+    font-family: Arial, sans-serif;
+    color: #d6b16b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    margin: 0;
+}

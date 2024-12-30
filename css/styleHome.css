@@ -1,0 +1,43 @@
+:root{
+    --color-acento: #ee6130;
+    --color-acento-claro: #ee613033;
+    --color-texto: black;
+}
+
+
+#productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+div {
+    gap: 20px;
+}
+
+
+
+#cuenta-carrito{
+    position: absolute;
+    background-color: var(--color-acento);
+    border-radius: 100%;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    aspect-ratio: 1;
+    text-align: center;
+    /* margin-bottom: 15px; */
+}
+
+
+  
+.escondido{
+    display: none;
+}
+
+button{
+    transition: 200ms;
+}
+
+  
